@@ -1,0 +1,65 @@
+<!--
+    register.html
+    Web Development Client Side Scripting INFT2202-02 13964
+    Durham College
+    Sergio Santilli
+    Muhammad Anwar & Harrison Vigneswaran
+    February 23, 2024
+-->
+
+<main class="container">
+    <br>
+    <br>
+    <h1><i class="fa-solid fa-clipboard-user"></i> Registration Portal</h1>
+    <br>
+    <br>
+
+    <div id="messageArea"></div>
+
+
+    <div class="row justify-content-lg-center g-3">
+
+        <form class="col-lg-6 col-md-10 col-sm-10">
+            <div class="input-group mb-3">
+                <span class="input-group-text">Username</span>
+                <input id="userName" name="userName" class="form-control" aria-describedby="Username Area" aria-label="Username Area Input" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Password</span>
+                <input id="password" name="password" class="form-control" aria-describedby="Password Area" aria-label="Password Area Input" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Full Name</span>
+                <input id="fullName" name="fullName" type="text" class="form-control" aria-describedby="Full Name" aria-label="Full Name Input" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Contact Number</span>
+                <input id="contactNumber" name="contactNumber" type="tel" class="form-control" aria-describedby="Contact Number" aria-label="Contact Number Input" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Email</span>
+                <input id="emailAddress" name="emailAddress" type="email" class="form-control" aria-describedby="Email Address" aria-label="Email Address Input" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Your Address</span>
+                <input id="address" name="address" class="form-control" aria-describedby="Address Area" aria-label="Address Area Input" required>
+            </div>
+
+            <div class="input-group mb-3">
+                <input id="subscribeCheckbox" name="subscribeCheckbox" type="checkbox" class="form-check-input">
+                <label class="form-check-label" for="subscribeCheckbox"> Click Here to Subscribe to our Newsletter</label>
+            </div>
+
+            <button id="sendButton" type="submit" class="btn btn-primary"><i class="fa-solid fa-envelope-open"></i> Submit</button>
+            <button id="cancelButton" type="reset" class="btn btn-warning"><i class="fa-solid fa-arrows-rotate"></i> Reset</button>
+
+        </form>
+
+
+
+
+    </div>
+</main>

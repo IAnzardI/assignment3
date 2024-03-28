@@ -1,0 +1,42 @@
+<!--
+    statistics.html
+    Web Development Client Side Scripting INFT2202-02 13964
+    Durham College
+    Sergio Santilli
+    Muhammad Anwar & Harrison Vigneswaran
+    March 23, 2024
+-->
+
+
+<!-- Main Content -->
+<div id="eventPlanningPage" class="container">
+    <h1>Event Planning</h1>
+
+    <div id="calendar"></div>
+
+    <form id="eventForm">
+        <form id="contactForm" class="col-lg-6 col-md-10 col-sm-10">
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Event Name</span>
+                <input id="eventName" name ="Event Name" type="text" class="form-control" aria-describedby="Event Name" aria-label="Event Name required" required>
+
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Event Date</span>
+                <input id="eventDate" name ="Event Date" type="date" class="form-control" aria-describedby="Event Date" aria-label="Event Date Input" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Event Location</span>
+                <input id="eventLocation" name ="Event Location" type="text" class="form-control" aria-describedby="Event Location" aria-label="Event Location Input" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Event Description</span>
+                <input id="eventDescription" name ="Event Description" type="text" class="form-control" aria-describedby="Event Description Area" aria-label="Event Description Input" required>
+            </div>
+            <button id="submit" type="submit" class ="btn btn-primary"><i class="fa-solid fa-envelope"></i> Submit</button>
+            <button id="cancel" type="reset"  class="btn btn-warning"><i class="fa-solid fa-rotate-left"></i> Cancel</button>
+        </form>
+    </form>
+</div>
+

@@ -1,0 +1,22 @@
+{
+  "monthlyVisits": {
+    "labels": ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+    "values": [120, 150, 180, 200, 170, 220, 120, 150, 180, 200, 170, 220]
+  },
+  "pageViews": {
+    "labels": ["Home", "About Us", "Services", "Contact", "Blog", "Portfolio"],
+    "values": [600, 450, 200, 100, 80, 210]
+  },
+  "topCountries": {
+    "labels": ["United States", "Canada", "United Kingdom", "France", "Germany"],
+    "values": [100, 550, 20, 15, 10]
+  },
+  "userDemographics": {
+    "labels": ["18-24", "25-34", "35-44", "45-54", "55-64", "65+"],
+    "values": [20, 210, 180, 170, 250, 80]
+  },
+  "deviceTypes": {
+    "labels": ["Desktop", "Mobile", "Tablet"],
+    "values": [500, 600, 150]
+  }
+}

@@ -1,0 +1,80 @@
+<!--
+    contact.html
+    Web Development Client Side Scripting INFT2202-02 13964
+    Durham College
+    Sergio Santilli
+    Muhammad Anwar & Harrison Vigneswaran
+    February 23, 2024
+-->
+
+
+    <!-- This would be the form that a user would submit to contact us -->
+    <!-- This would create the individual form types  -->
+    <!-- This would provide our information -->
+
+        <br>
+        <br>
+        <h1 class="mb-5">Contact us</h1>
+
+        <div class="row justify-content-lg-center g-3">
+
+                <p>Last updated: [2024-01-27]</p>
+
+            <section>
+                <h2>Need to get In Contact</h2>
+                <p>Need any Help? This page will help you inquire exactly what you need help with or feedback on how our community center is doing.
+                    We collect, use, disclose, and safeguard your personal information when you visit our website or use our
+                    services. By accessing or using our website, you consent to the terms of this Privacy Policy.</p>
+            </section>
+
+            <section>
+                <h2>Need to Contact Us</h2>
+                <UL>
+                    <LI>Email: infoinquire@harmony.com</LI>
+                    <LI>Phone: 124-456-7890</LI>
+                    <LI>Fax Phone: 124-456-7810</LI>
+                </UL>
+                <p>We may collect personally identifiable information, such as your name, email address, and phone number, when
+                    you voluntarily submit it to us through forms on our website.</p>
+
+            </section>
+        <form id="contactForm" class="col-lg-6 col-md-10 col-sm-10">
+
+            <div class="input-group mb-3">
+                <span class="input-group-text">Full Name</span>
+                <input id="fullName" name ="FullName" type="text" class="form-control" aria-describedby="Full Name" aria-label="Full name required" required>
+
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Contact Number</span>
+                <input id="contactNumber" name ="ContactNumber" type="tel" class="form-control" aria-describedby="Contact Number" aria-label="Contact Number Input" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Your Email</span>
+                <input id="emailAddress" name ="EmailAddress" type="email" class="form-control" aria-describedby="Email Address" aria-label="Email Address Input" required>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text">Your Message</span>
+                <input id="message" name ="message" type="tel" class="form-control" aria-describedby="Message Area" aria-label="Message Area Input" required>
+            </div>
+            <div class="input-group mb-3">
+                <input id ="subscribeCheckBox" name="subscribeCheckBox" type="checkbox" class="form-check-input">
+                <label class="form-check-label" for="subscribeCheckBox">  Confirm Information</label>
+            </div>
+            <button id="submit" type="submit" class ="btn btn-primary"><i class="fa-solid fa-envelope"></i> Submit</button>
+            <button id="cancel" type="reset"  class="btn btn-warning"><i class="fa-solid fa-rotate-left"></i> Cancel</button>
+        </form>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p id="modalText"></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4">
+            <a data="contact-list" class="btn btn-primary"><i class="fa-regular fa-address-book"></i> Show Contact List</a>
+        </div>
+
+
+
+
